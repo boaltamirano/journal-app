@@ -7,7 +7,7 @@ import { useDispatch, useSelector } from "react-redux"
 import { startCreatingUserWithEmailPassword } from "../../store/auth"
 
 const formData = {
-    email: '',
+    email: 'adasa',
     password: '',
     displayName: ''
 }
