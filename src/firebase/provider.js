@@ -11,7 +11,6 @@ export const singInWithGoogle = async() => {
             displayName, email, photoURL, uid
         }
     } catch (error) {
-        const errorCode = error.code;
         const errorMessage = error.message;
         return {
             ok: false,
@@ -58,4 +57,8 @@ export const loginWithEmailPassword = async({email, password}) => {
         }
     }
 
+}
+
+export const logoutFirebase = async() => {
+    return await FirebaseAuth.signOut();
 }
