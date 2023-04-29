@@ -15,7 +15,7 @@ export const NoteView = () => {
             <Grid item>
                 <Typography fontSize={39} fontWeight='light'>August 28, 2023</Typography>
             </Grid>
-            <Grid Item>
+            <Grid item>
                 <Button color="primary" sx={{ padding: 2 }}>
                     <SaveOutlined sx={{ fontSize: 30, mr: 1 }} />
                     Save
