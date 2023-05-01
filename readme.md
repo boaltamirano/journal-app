@@ -9,6 +9,7 @@ This is practice application of a notes website developed in react + Firebase.
 - [React router](https://reactrouter.com/en/main)
 - [Material UI](https://mui.com/)
 - [Sweetalert2](https://sweetalert2.github.io/)
+- [Animate.css](https://animate.style)
 - [Firebase](https://firebase.google.com/)
 
 # Working in local service
